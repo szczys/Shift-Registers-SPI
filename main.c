@@ -1,3 +1,11 @@
+/********************************
+* Driving shift registers using	*
+* an AVR chip's hardwarre SPI	*
+*				*
+* http://jumptuck.com 		*
+*				*
+********************************/
+
 #include <avr/io.h>
 #include <util/delay.h>
 
