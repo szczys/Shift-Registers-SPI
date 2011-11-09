@@ -3,7 +3,7 @@
 
 #define SHIFT_REGISTER DDRB
 #define SHIFT_PORT PORTB
-#define DATA (1<<PD3)		//MOSI (SI)
+#define DATA (1<<PB3)		//MOSI (SI)
 #define LATCH (1<<PB2)		//SS   (RCK)
 #define CLOCK (1<<PB5)		//SCK  (SCK)
 
